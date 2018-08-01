@@ -1,0 +1,10 @@
+[package]
+name = "dockerrust"
+version = "0.1.0"
+authors = ["Emil Eriksson <emil.eriksson@codemill.se>"]
+
+[[bin]]
+name = "dockerrust"
+path = "src/main.rs"
+
+[dependencies]
