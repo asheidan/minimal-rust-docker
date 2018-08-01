@@ -8,3 +8,4 @@ name = "dockerrust"
 path = "src/main.rs"
 
 [dependencies]
+iron = "*"

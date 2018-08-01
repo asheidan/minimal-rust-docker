@@ -11,6 +11,8 @@ RUN strip /home/rust/src/target/x86_64-unknown-linux-musl/release/dockerrust
 
 FROM scratch
 
+EXPOSE 3000
+
 COPY --from=buildcontext /home/rust/src/target/x86_64-unknown-linux-musl/release/dockerrust /entrypoint
 
 ENTRYPOINT ["/entrypoint"]
